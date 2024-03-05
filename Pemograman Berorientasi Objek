@@ -1,0 +1,18 @@
+class alatmusik{
+    String Jenis;
+    String Merk;
+    String Harga;
+}
+public class ObjectorOrientedProgramming {
+    public static void main(String[] args) {
+        
+        alatmusik alatmusikku= new alatmusik();
+        alatmusikku.Jenis="gitar";
+        alatmusikku.Merk="yamaha";
+        alatmusikku.Harga="Rp 2.500.000";
+        
+        System.out.println("Jenis "+alatmusikku.Jenis);
+        System.out.println("Merk "+alatmusikku.Merk);
+        System.out.println("Harga "+alatmusikku.Harga);
+    }
+}
